@@ -3,8 +3,13 @@ GeoGig - Geospatial Distributed Version Control System
 
 This is a copy of the [GeoGig](https://github.com/locationtech/geogig) project.  This version works with the [GeoGig QGIS Plugins](https://github.com/ngageoint/geogig-qgis-client-plugin) and [GeoGig WebAPI](https://github.com/ngageoint/geogig-web).  The QGIS plugin and WebAPI are NGA funded as part of the GEOINT Services program
 
+Geogig is a middleware tool for distributed management of geospatial data.  Geogig uses common git workflows with branching.  Users are able to import raw geospatial data (Shapefiles, PostGIS, SpatiaLite, ect) in to a repository where every change to the data is tracked.
 
-Welcome to the GeoGig project, exploring the use of distributed management of spatial data. GeoGig draws inspiration from [Git](http://git-scm.com/), but adapts its core concepts to handle versioning of geospatial data. Users are able to import raw geospatial data (currently from Shapefiles, PostGIS or SpatiaLite) in to a repository where every change to the data is tracked. These changes can be viewed in a history, reverted to older versions, branched in to sandboxed areas, merged back in, and pushed to remote repositories. GeoGig is written in Java, available under the BSD License.
+QGIS Geogig Plugin is used to connect QGIS to a Geogig repo for multiuser reads and edits.
+
+Geogig Web API provides a REST interface to a Geogig repository allowing users to read and write data.
+
+Latest Geogig can be downloaded from community - https://github.com/locationtech/geogig
 
 <!-- For background reading see these two papers on the spatial distributed versioning [Concept ](http://boundlessgeo.com/whitepaper/new-approach-working-geospatial-data-part-1/),  [Implementation](http://boundlessgeo.com/whitepaper/distributed-versioning-geospatial-data-part-2/), and [Potential Development](http://boundlessgeo.com/whitepaper/distributed-versioning-geospatial-data-part-3/). -->
 
