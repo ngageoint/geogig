@@ -5,9 +5,9 @@ This is a copy of the [GeoGig](https://github.com/locationtech/geogig) project. 
 
 Geogig is a middleware tool for distributed management of geospatial data.  Geogig uses common git workflows with branching.  Users are able to import raw geospatial data (Shapefiles, PostGIS, SpatiaLite, ect) in to a repository where every change to the data is tracked.
 
-QGIS Geogig Plugin is used to connect QGIS to a Geogig repo for multiuser reads and edits.
+**QGIS Geogig Plugin** is used to connect QGIS to a Geogig repo for multiuser reads and edits.
 
-Geogig Web API provides a REST interface to a Geogig repository allowing users to read and write data.
+**Geogig Web API** provides a REST interface to a Geogig repository allowing users to read and write data.
 
 Latest Geogig can be downloaded from community - https://github.com/locationtech/geogig
 
