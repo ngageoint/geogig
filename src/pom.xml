@@ -47,7 +47,7 @@
     <postgresql.version>42.1.1</postgresql.version>
     <springweb.version>4.3.7.RELEASE</springweb.version>
     <servlet-api.version>3.1.0</servlet-api.version>
-    <jetty.version>9.4.1.v20170120</jetty.version>
+    <jetty.version>9.4.34.v20201102</jetty.version>
     <appassembler.plugin.version>1.2.2</appassembler.plugin.version>
     <war.plugin.version>2.4</war.plugin.version>
     <jetty.plugin.version>7.1.6.v20100715</jetty.plugin.version>
